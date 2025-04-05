@@ -1,0 +1,23 @@
+.main_container{
+    background-image: url("../../asset/react-js.jpg");
+    background-size: cover;
+    min-height: inherit;
+}
+
+.container{
+    /* height: 100vh;
+    width: 100%; */
+    padding: 3rem;
+    
+}
+
+.maincolumn{
+    padding: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.column{
+    width: 23rem;
+}
+

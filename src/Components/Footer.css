@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:wght@300;600&display=swap');
+.footer_container{
+    height: 25vh;
+    background-color: black;
+    color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem 2rem;
+}
+.name_position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    display: none;
+    font-family: 'Sacramento', cursive;
+    padding-left: 1rem;
+}
+.footer_name{
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 1rem;
+}
+.footer_socialLinks{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    
+}
+.footer_socialLinks a{
+    color: rgb(179, 179, 179);
+
+}
+
+.footer_socialLinks a:hover{
+    color: rgb(228, 228, 228);
+}
+
+.other_detail{
+display: flex;
+flex-direction: column;
+align-items:end;
+}
+.footer_logo{
+    height: 4rem;
+    opacity: .8;
+}
+@media screen and (max-width: 600px){
+    .footer_container h1{
+        font-size:20px;
+    }
+    .footer_container h5{
+        font-size: 13px;
+    }
+    .footer_socialLinks{
+        width: 6rem;
+        font-size: 1rem;
+    }
+}

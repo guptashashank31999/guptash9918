@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:wght@300;600&display=swap');
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Quicksand', sans-serif ;
+    min-height: inherit;
+    background-image: url("../../asset/my-image.jpg");
+    background-size:cover;
+    /* background: black; */
+    
+}
+.home_container h1{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(250, 248, 248);
+
+}
+.home_container p{
+  
+    color: rgb(226, 223, 223);
+
+}
+.hometitle{
+    background-color: grey;
+    color:white;
+    margin-bottom: 1rem;
+}
+.leftdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-height: 70vh;
+    padding: 3rem 10rem;
+
+}
+.leftdiv h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #b3b3b3;
+}
+
+/* .rightdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-left: 2px solid rgb(103, 102, 102);
+    min-height: 70vh;
+} */
+
+@media screen and (max-width: 800px){
+    .home_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: none;
+        background-color: black;
+        align-items: center;
+        font-family:'Quicksand', sans-serif ;
+        min-height: 100vh;
+    }
+    .rightdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        border-left: none;
+        min-height: 20vh;
+       
+    }
+    .leftdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items: flex-start;
+        flex: 1;
+        min-height: 40vh;
+        padding: 2rem;
+    
+    }
+}
+@media screen and (max-width: 500px){
+    .home_container{
+        min-height: 40vh;
+    }
+    .leftdiv{
+        justify-content:center;
+    }
+    .leftdiv h1{
+        font-size: 2rem;
+    }
+}

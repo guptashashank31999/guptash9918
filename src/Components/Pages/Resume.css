@@ -1,0 +1,237 @@
+.resume_container{
+    /* width: 100%; */
+    /* background-color: white; */
+    font-family:'Quicksand', sans-serif ; 
+    padding: 1rem; 
+    min-height: inherit;
+   }
+.row1{
+    display: flex;
+    justify-content: row;
+    min-height: inherit;
+}
+.profilecontainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: 4rem 2rem; */
+}
+.profile{
+    height: 10rem;
+    width: 10rem;
+}
+.item{
+    flex: 1;
+    padding: 1rem 2rem;
+}
+.experience1{
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.experience1 p, .experience2 p{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #747474;
+}
+.profilecontainer p{
+    color: #747474;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.skillcontainer table{
+        table-layout: fixed;
+        width: 100%;
+}
+.skillcontainer td{
+    width: calc(100% / number_of_columns);
+}
+.skillcontainer p{
+    padding:0;
+    margin: 0;
+    font-size: .9rem;
+    color: rgb(84, 84, 84);
+}
+.duration{
+    color: grey;
+    font-weight: 500;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: dimgrey;
+    margin: 0px;
+}
+.title{
+   font-weight: lighter;
+}
+.education, .projectsection, .experience, .namesection{
+    border-bottom: 2px solid #bebebe;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.namesection h5{
+    color: grey;
+}
+.col1{
+    background-color: #d3d3d3;
+}
+.col2, .col3{
+    background-color: #e2e2e2;
+}
+/* .projectsection{
+    border-bottom: 2px solid #bebebe;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.skillcontainer{
+    border-bottom: 2px solid #bebebe;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+} */
+.education h5{
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    margin: 0px;
+}
+.education p{
+    font-size: .9rem;
+    font-weight: 500;
+    color: grey;
+}
+@media screen and (max-width: 900px){
+    .row1{
+     flex-direction: column;
+    }
+    .col3{
+        display: flex;
+        flex-direction: column;
+    }
+    .col3_item{
+        flex: 1;
+    }
+}
+
+/* .resume_container{
+ width: 100%;
+ background-color: white;
+ font-family:'Quicksand', sans-serif ;  
+}
+.grid-container{
+   display: grid;
+   grid-template-rows: auto auto;
+   grid-template-columns:  1fr 2fr;
+   row-gap: 2px;
+}
+
+.grid-container h4{
+margin-bottom: 0px;
+}
+.grid-container p{
+    margin-bottom: 0px;
+    }
+.grid-item{
+    height: 100vh;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:1fr;
+}
+
+.item1{
+    justify-self: center;
+    background-color: rgb(19 25 49);
+}
+.item1 p{
+    color: aliceblue;
+}
+.item1 h2,h5{
+    color: aliceblue;
+}
+.education h5{
+    color: black;
+}
+.childof2_2 h5{
+    color: black;
+}
+.item2{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:repeat(2, 1fr);
+    background-color:rgb(236, 237, 239);
+}
+.profile{
+    height: 10rem;
+    width: 10rem;
+}
+.profilecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 2rem;
+}
+.progressbarContainer{
+    margin: 2rem;
+}
+.grid2-item{
+height: inherit;
+}
+.item2_2{
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-columns:auto ;
+    padding: 10px 10px;
+}
+
+.item2_2_1{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows:1fr 4fr;
+    
+}
+.item2_2_2{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows:1fr 2fr;
+    
+}
+.education{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:repeat(2, 1fr);
+}
+.item2_1{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows:1fr 1fr;
+    padding: 10px 10px;
+}
+.project{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, 1fr);
+}
+@media screen and (max-width: 1000px){
+    .grid-container{
+        padding: 2rem;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .grid-container{
+        padding: 2rem;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 2px;
+    }
+} */

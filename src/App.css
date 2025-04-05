@@ -1,0 +1,16 @@
+/* .Container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+} */
+.Container{
+  background-color:rgb(238, 237, 237) ;
+}
+section{
+ min-height: 100vh;
+ scroll-snap-align: start;
+}
+@media screen and (max-width: 500px){
+  section{
+      min-height: 40vh;
+  }
+}
