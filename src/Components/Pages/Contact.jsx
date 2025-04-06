@@ -96,12 +96,12 @@ const Contact = () => {
                 <h5 className='looking' style={{ fontFamily: 'Meow Script, cursive' }}>Looking forward to hearing you from</h5>
               </div>
               <div className='mobileP1' >
-                <p className='p1'>+917376525877 <FontAwesomeIcon icon={faPhone} size="sm"/> </p>
-                <p className='p1'> guptashashank31999@gmail.com <FontAwesomeIcon icon={faEnvelope} size="sm"/></p>
+                <p className='p1'>+91 9918525877 <FontAwesomeIcon icon={faPhone} size="sm"/> </p>
+                <p className='p1'> guptash9918@gmail.com <FontAwesomeIcon icon={faEnvelope} size="sm"/></p>
               </div>
               <div className='desktopP1'>
-                <p className='p1'> <FontAwesomeIcon icon={faPhone} size="sm"/> +917376525877</p>
-                <p className='p1'> <FontAwesomeIcon icon={faEnvelope} size="sm"/> guptashashank31999@gmail.com</p>
+                <p className='p1'> <FontAwesomeIcon icon={faPhone} size="sm"/> +91 9918525877</p>
+                <p className='p1'> <FontAwesomeIcon icon={faEnvelope} size="sm"/> guptash9918@gmail.com</p>
               </div>
             </div>
         </div>
